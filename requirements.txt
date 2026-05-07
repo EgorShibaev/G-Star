@@ -1,0 +1,28 @@
+torch>=2.3
+datasets==3.6.0
+einops
+flash-attn
+fsspec
+git-lfs
+h5py
+hydra-core
+ipdb
+lightning
+mauve-text
+notebook
+nvitop
+omegaconf
+packaging
+pandas
+rich
+safetensors
+scikit-learn
+seaborn
+spacy
+timm
+transformers
+wandb
+
+# Optional: only required for the DiMamba backbone (configs/model/tiny-dimamba.yaml).
+# Install manually if you want to use it:
+#   pip install mamba-ssm causal-conv1d

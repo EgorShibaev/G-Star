@@ -1,0 +1,5 @@
+type: loglinear
+sigma_min: 1e-4
+sigma_max: 20
+t_off: 0.05
+t_on: 0.3

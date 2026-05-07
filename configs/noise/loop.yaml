@@ -1,0 +1,8 @@
+type: loop
+# Piecewise alpha schedule parameters
+# On [0, t_off]: alpha increases 0 -> alpha_const
+# On [t_off, t_on]: alpha = alpha_const
+# On [t_on, 1]: alpha increases alpha_const -> 1
+t_off: 0.05
+t_on: 0.55
+alpha_const: 0.1
